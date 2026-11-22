@@ -1,0 +1,16 @@
+{
+  "name": "aditya-patel-portfolio",
+  "version": "1.0.0",
+  "description": "Aditya Patel \u2014 creative developer portfolio (static site + contact API)",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "MAIL_DRY_RUN=1 node server.js",
+    "set-domain": "node scripts/set-domain.js",
+    "check": "node scripts/check-deploy.js",
+    "build:single": "node scripts/build-single.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
